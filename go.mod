@@ -1,4 +1,4 @@
-module github.com/GoogleContainerTools/kpt
+module github.com/SamarSidharth/kpt
 
 go 1.21
 
