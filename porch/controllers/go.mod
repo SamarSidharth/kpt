@@ -1,19 +1,10 @@
-module github.com/GoogleContainerTools/kpt/porch/controllers
+module github.com/SamarSidharth/kpt/porch/controllers
 
 go 1.21
 
-replace (
-	github.com/GoogleContainerTools/kpt => ../../
-	github.com/GoogleContainerTools/kpt/porch => ../
-	github.com/GoogleContainerTools/kpt/porch/api => ../api
-	github.com/go-git/go-git/v5 v5.4.3-0.20220408232334-4f916225cb2f => github.com/platkrm/go-git/v5 v5.4.3-0.20220410165046-c76b262044ce
-)
-
 require (
 	cloud.google.com/go/container v1.13.1
-	github.com/GoogleContainerTools/kpt v0.0.0-00010101000000-000000000000
 	github.com/GoogleContainerTools/kpt-functions-sdk/go/fn v0.0.0-20230427202446-3255accc518d
-	github.com/GoogleContainerTools/kpt/porch v0.0.0-00010101000000-000000000000
 	github.com/GoogleContainerTools/kpt/porch/api v0.0.0-20230121152246-dc44dbd18a33
 	github.com/google/cel-go v0.14.0
 	github.com/google/go-containerregistry v0.14.0
